@@ -1,0 +1,26 @@
+/* ROOT VARIABLES */
+:root{
+  --header-color:#39aebc;
+  --footer-color:#f6f6f6;
+  --light-blue:#f2fbf9;
+  --gray:#657a93;
+  --sea-green:#41b494;
+}
+
+/* HELPERS */
+.popup-header{
+  background-color:var(--header-color) ;
+}
+.remove-btn{
+  background-color: var(--light-blue) !important;
+  color:var(--gray);
+}
+.modal-footer{
+  background-color: var(--footer-color);
+}
+.save-seg-btn{
+  background-color: var(--sea-green);
+}
+.text-sea-green{
+  color:var(--sea-green);
+}
